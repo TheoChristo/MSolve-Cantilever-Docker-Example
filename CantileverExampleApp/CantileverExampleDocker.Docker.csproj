@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="MGroup.Constitutive.Structural">
+      <HintPath>MSolveLibs\MGroup.Constitutive.Structural.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.FEM">
+      <HintPath>MSolveLibs\MGroup.FEM.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.FEM.Structural">
+      <HintPath>MSolveLibs\MGroup.FEM.Structural.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.MSolve.DataStructures">
+      <HintPath>MSolveLibs\MGroup.MSolve.DataStructures.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.MSolve.Discretization">
+      <HintPath>MSolveLibs\MGroup.MSolve.Discretization.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.MSolve.Solution">
+      <HintPath>MSolveLibs\MGroup.MSolve.Solution.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.NumericalAnalyzers">
+      <HintPath>MSolveLibs\MGroup.NumericalAnalyzers.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.Solvers">
+      <HintPath>MSolveLibs\MGroup.Solvers.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.LinearAlgebra">
+      <HintPath>MSolveLibs\MGroup.LinearAlgebra.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.MSolve.Geometry">
+      <HintPath>MSolveLibs\MGroup.MSolve.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.MSolve.Numerics">
+      <HintPath>MSolveLibs\MGroup.MSolve.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="MGroup.MSolve.AnalysisWorkflow">
+      <HintPath>MSolveLibs\MGroup.MSolve.AnalysisWorkflow.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="DotNumerics" Version="1.1.0" />
+  </ItemGroup>
+</Project>

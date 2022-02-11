@@ -13,6 +13,8 @@ A .NET Console Application that uses MSolve to solve a simple Cantilever problem
 
     This will generate a *CantileverExampleDocker.Docker.dll* inside `bin/Release/net5.0/publish/`
 
+*<b>Note:</b> From this point onwards, you -obviously- need Docker installed and running on your machine.*
+
 * Create Docker Image
 
     ```cli
